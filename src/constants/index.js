@@ -152,27 +152,51 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "I thought it was impossible to make a website as beautiful as our product, but Rifqi proved me wrong.",
+        name: "Setiawan",
+        designation: "CRM",
+        company: "PT Consment Jaya Teknindo",
+        image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
+            "I've never met a web developer who truly cares about their clients' success like Rifqi does.",
+        name: "Gery",
+        designation: "CEO",
+        company: "Waroeng Rampoes",
         image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "After Rifqi optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        name: "Tasya",
+        designation: "Student",
+        company: "UNIKOM",
+        image: "https://randomuser.me/api/portraits/women/1.jpg",
+    },
+    {
+        testimonial:
+            "Don't hesitate to entrust you website to Rifqi, because he can do anything.",
+        name: "Chika",
+        designation: "Student",
+        company: "UNIKOM",
+        image: "https://randomuser.me/api/portraits/women/2.jpg",
+    },
+    {
+        testimonial:
+            "Rifqi had helped me to create website for my thesist, he can do everything until I'm passed from my collage",
+        name: "Saeful",
+        designation: "Student",
+        company: "UNIKOM",
+        image: "https://randomuser.me/api/portraits/men/7.jpg",
+    },
+    {
+        testimonial:
+            "I thought imposible to create beautifull and responsive website, but Rifqi can do it",
+        name: "Ruyatsyah",
+        designation: "Student",
+        company: "UNIKOM",
+        image: "https://randomuser.me/api/portraits/men/8.jpg",
     },
 ];
 
