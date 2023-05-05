@@ -15,14 +15,18 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    apud,
+    codex,
+    adeeva,
+    bonli,
+    coffeshop,
+    himavoting,
+    kingvoyage,
+    studio66,
+    tender,
+    waroengrampoes,
+    hotelrealta
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +50,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React JS Developer",
+        title: "Frontend Developer",
         icon: mobile,
     },
     {
@@ -54,9 +58,10 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "App Developer",
+        icon: mobile,
     },
+    
 ];
 
 const technologies = [
@@ -116,24 +121,24 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Full Stack Developer",
+        company_name: "Asian Pasific Urban Designer",
+        icon: apud,
+        iconBg: "#fff",
+        date: "Jan 2021 - Jan 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining web applications using PHP and other related technologies.",
+            "Redesign old website.",
+            "Re-create the company profile along with the CMS page for members and admin.",
+            "Create a registration form every time there is a recent event.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        title: "Bootcamp Full Stack Node JS",
+        company_name: "Code X Academy",
+        icon: codex,
+        iconBg: "black",
+        date: "Dec 2022 - Mar 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,32 +146,7 @@ const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+   
 ];
 
 const testimonials = [
@@ -198,67 +178,88 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Hotel Realta",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to search, book, and manage hotel  where customers can search for accommodations, view room availability, and make reservations",
         tags: [
             {
-                name: "react",
+                name: "nextJS",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "postgreSQL",
                 color: "green-text-gradient",
             },
             {
                 name: "tailwind",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "nestJS",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: hotelrealta,
+        source_code_link: "https://github.com/RealtaHotelKelompok1/hotel_realta_v2",
     },
     {
-        name: "Job IT",
+        name: "Adeeva Tour",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A web-based application that enables users to book domestic travel packages and schedule their trips. Customers can book travel packages and schedule their trip departures using this platform. The website can handle both user and admin accounts.",
         tags: [
             {
-                name: "react",
+                name: "PHP",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "bootstrap",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "codeigniter",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: adeeva,
+        source_code_link: "#",
     },
     {
-        name: "Trip Guide",
+        name: "Bonli Cipta Sejahtera",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A web-based application that manages employees within a company. This application streamlines the recruitment process for new employees and assesses them using the best calculation methods. It provides the company with an efficient way to manage their employees.",
         tags: [
             {
-                name: "nextjs",
+                name: "php",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "bootstrap",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "smtp",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: bonli,
+        source_code_link: "https://github.com/rifqiramdhani/recruitment",
+    },
+    {
+        name: "Coffe Shop",
+        description:
+            "a website-based application with a premium design, created to increase sales of a small business.",
+        tags: [
+            {
+                name: "php",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "green-text-gradient",
+            },
+        ],
+        image: coffeshop,
+        source_code_link: "#",
     },
 ];
 

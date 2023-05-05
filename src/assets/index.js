@@ -1,3 +1,4 @@
+/* ICON */
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -7,6 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+/* TECH */
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,14 +23,24 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+/* COMPANY */
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import apud from "./company/apud.png";
+import codex from "./company/codex.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+/* PROJECT */
+import adeeva from "./project/adeeva.png"
+import bonli from "./project/bonli.png"
+import coffeshop from "./project/coffeshop.png"
+import himavoting from "./project/hima-voting.png"
+import kingvoyage from "./project/kingvoyage.png"
+import studio66 from "./project/studio66.png"
+import tender from "./project/tender.png"
+import waroengrampoes from "./project/waroeng-rampoes.png"
+import hotelrealta from "./project/hotel-realta.png"
 
 export {
   logo,
@@ -56,7 +68,15 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  apud,
+  codex,
+  adeeva,
+  bonli,
+  coffeshop,
+  himavoting,
+  kingvoyage,
+  studio66,
+  tender,
+  waroengrampoes,
+  hotelrealta
 };
