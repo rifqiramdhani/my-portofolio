@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -14,20 +14,29 @@ const Hero = () => {
         </div>
 
         <div className="">
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-white mobile-s:text-[35px]`}>
             Hi, I'm <span className="text-[#a70c30]">Rifqi</span>
           </h1>
 
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm develop 3D visuals, and <br className="sm:block hidden" /> web
-            application
-          </p>
+          <div className={`${styles.heroSubText} mt-4 text-white-100`}>
+            <TypeAnimation
+              sequence={[
+                // Same String at the start will only be typed once, initially
+                "I develop web aplication",
+                1000,
+                "I develop app aplication",
+                1000,
+                "I develop app aplication",
+                1000,
+              ]}
+              speed={50}
+              repeat={Infinity}
+            />
+          </div>
         </div>
       </div>
 
       <ComputersCanvas />
-
-      
     </section>
   );
 };

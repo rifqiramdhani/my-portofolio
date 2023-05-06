@@ -269,7 +269,7 @@ const projects = [
         source_code_link: "https://github.com/rifqiramdhani/recruitment",
     },
     {
-        name: "Coffe Shop",
+        name: "Coffee Shop",
         description:
             "a website-based application with a premium design, created to increase sales of a small business.",
         tags: [
@@ -283,6 +283,27 @@ const projects = [
             },
         ],
         image: coffeshop,
+        source_code_link: "#",
+    },
+    {
+        name: "HMIF Vote",
+        description:
+            "a website-based application with a premium design, created to increase sales of a small business.",
+        tags: [
+            {
+                name: "codeigniter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mysql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: himavoting,
         source_code_link: "#",
     },
 ];
