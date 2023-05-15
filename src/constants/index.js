@@ -288,7 +288,7 @@ const projects = [
     {
         name: "HMIF Vote",
         description:
-            "a website-based application with a premium design, created to increase sales of a small business.",
+            "This website application is designed to facilitate the process of selecting the chairman of an association in an educational institution or organization. With a verified account, voters can easily choose the desired candidate and the system will calculate the vote results automatically. This application is also equipped with voter and candidate data management features as well as tight data security. With these features, this website application can be an effective solution to facilitate the process of selecting association leaders quickly, easily, and transparently.",
         tags: [
             {
                 name: "codeigniter",
@@ -304,6 +304,90 @@ const projects = [
             },
         ],
         image: himavoting,
+        source_code_link: "#",
+    },
+    {
+        name: "Kingvoyage",
+        description:
+            "This car rental website application is designed to facilitate the process of renting a car online. In this application, users can choose the desired car, determine the pick-up time and location, and select a rental package that suits their needs. The application is also equipped with a secure and easy online payment feature. In addition, users can easily track the booking status and manage orders through the user dashboard. With these features, the car rental website application can be a practical and efficient solution for users who need a rental car quickly and easily.",
+        tags: [
+            {
+                name: "codeigniter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mysql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: kingvoyage,
+        source_code_link: "#",
+    },
+    {
+        name: "Studio66",
+        description:
+            "This website application features a premium design that is specifically designed to help increase sales for micro, small, and medium-sized enterprises (MSMEs). In this application, MSMEs can promote their products online with a professional and attractive display. Features such as e-commerce, ordering systems, and online payment can help facilitate the purchasing and selling process. Additionally, this application is equipped with analytical features to help MSMEs monitor their sales performance and results in real-time. With this website application, MSMEs can increase the visibility and attractiveness of their products in the digital market, thus increasing their sales and business growth.",
+        tags: [
+            {
+                name: "php",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mysql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: studio66,
+        source_code_link: "#",
+    },
+    {
+        name: "PT Mulya Cipta",
+        description:
+            "This tender data processing website aims to provide up-to-date information and analysis on tenders taking place in a particular region or business sector. Through this website, users can access the latest tender data, including tender details, tender winners, and bid prices. In addition, the website is also equipped with data analysis features that can help users understand market trends and business needs in a sector. With accurate and up-to-date information provided by this website, users can make better and more effective business decisions.",
+        tags: [
+            {
+                name: "codeigniter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mysql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tender,
+        source_code_link: "#",
+    },
+    {
+        name: "Waroeng Rampoes",
+        description:
+            "This cashier website is a web application designed to help facilitate the sales and payment processes in various types of businesses, ranging from small shops to large-scale businesses. In this application, users can manage inventory, easily calculate prices, and accept payments through various payment methods, such as credit cards, bank transfers, and others. Additionally, the application is also equipped with financial reporting features to help users easily and accurately monitor their finances. With this cashier website application, users can manage their businesses more efficiently and effectively.",
+        tags: [
+            {
+                name: "codeigniter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mysql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: waroengrampoes,
         source_code_link: "#",
     },
 ];
