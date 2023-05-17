@@ -5,28 +5,38 @@ import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { Tilt } from 'react-tilt'
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
-  return(
+  return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
-          speed: 450
+          speed: 450,
         }}
-
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
+          <LazyLoadImage
+            src={image}
+            alt={name}
+            className="w-full h-full object-cover rounded-2xl"
+            effect="blur"
+          />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link,"_blank")}
+              onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
+              <img
+                src={github}
+                alt="github"
+                className="w-1/2 h-1/2 object-contain"
+              />
             </div>
           </div>
         </div>
@@ -45,7 +55,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
         </div>
       </Tilt>
     </motion.div>
-  )
+  );
 }
 
 const Works = () => {

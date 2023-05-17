@@ -7,6 +7,8 @@ import { styles} from '../styles'
 import { experiences } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -17,10 +19,11 @@ const ExperienceCard = ({ experience }) => {
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
-          <img
+          <LazyLoadImage
             src={experience.icon}
             alt={experience.company_name}
             className="w-[60%] h-[60%] object-contain"
+            effect="blur"
           />
         </div>
       }
@@ -28,7 +31,12 @@ const ExperienceCard = ({ experience }) => {
       <div>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
 
-        <p className="text-secondary text-base font-semibold" style={{margin: 0}}>{experience.company_name}</p>
+        <p
+          className="text-secondary text-base font-semibold"
+          style={{ margin: 0 }}
+        >
+          {experience.company_name}
+        </p>
       </div>
 
       <ul className="mt-5 list-disc ml-5 space-y-2">
